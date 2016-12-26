@@ -15,6 +15,7 @@ _I didn't find an obvious way to make Git Bash (and Cygwin as well) works with K
 
 ### MSYS Socket file
 One simply create a socket file by following these steps :
+
 1. Click on the menu **Tools -> Options**.
 2. Navigate to the **KeeAgent** tab.
 3. Now you have to choose either one of the two following options. For me, the first option worked out. We will use the options in the bottom section, named **Cygwin/MSYS integration**  
