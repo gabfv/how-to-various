@@ -1,6 +1,6 @@
 # How to make Git Bash and Cygwin works with KeeAgent on Windows.
 
-_I didn't find an obvious way to make Git Bash (and Cygwin as well) works with KeeAgent. Since my SSH keys are stored only within KeePass, I needed to use KeeAgent and without the use of temporary files._
+_I didn't find an obvious way to make Git Bash (and Cygwin as well) works with KeeAgent. Since my SSH keys are stored only within KeePass, I needed to use KeeAgent and without the use of temporary files. Also, this was made on Windows 10, so the tutorial may vary a bit for older versions of Windows._
 
 #### This tutorial assume that you've already done that :
 - Installed Git;
@@ -14,7 +14,7 @@ _I didn't find an obvious way to make Git Bash (and Cygwin as well) works with K
 2. Add the location of the MSYS socket file to the environment variable named SSH_AUTH_SOCK.
 
 ### MSYS Socket file
-One simply create a socket file by following these steps :
+One can simply create a socket file by following these steps :
 
 1. Click on the menu **Tools -> Options**.
 2. Navigate to the **KeeAgent** tab.
